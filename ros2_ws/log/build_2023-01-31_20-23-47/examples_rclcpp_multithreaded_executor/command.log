@@ -1,1 +1,0 @@
-Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j12 -l12

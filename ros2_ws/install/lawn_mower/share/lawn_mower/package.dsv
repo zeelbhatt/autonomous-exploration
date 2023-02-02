@@ -1,6 +1,0 @@
-source;share/lawn_mower/hook/pythonpath.ps1
-source;share/lawn_mower/hook/pythonpath.dsv
-source;share/lawn_mower/hook/pythonpath.sh
-source;share/lawn_mower/hook/ament_prefix_path.ps1
-source;share/lawn_mower/hook/ament_prefix_path.dsv
-source;share/lawn_mower/hook/ament_prefix_path.sh

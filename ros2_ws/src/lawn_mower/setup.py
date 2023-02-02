@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'lawn_mower'
+package_name = 'tbot'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle_pattern = lawn_mower.radiator_pattern:main'
+            'turtle_pattern = tbot.radiator_pattern:main'
         ],
     },
 )
