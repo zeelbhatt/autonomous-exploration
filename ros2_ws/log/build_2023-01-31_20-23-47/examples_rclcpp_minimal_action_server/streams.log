@@ -1,0 +1,23 @@
+[0.074s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j12 -l12
+[1.048s] [ 50%] Built target action_server_not_composable
+[1.049s] [100%] Built target action_server_member_functions
+[1.066s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j12 -l12
+[1.136s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_action_server --target install -- -j12 -l12
+[1.298s] [ 50%] Built target action_server_member_functions
+[1.313s] [100%] Built target action_server_not_composable
+[1.385s] [36mInstall the project...[0m
+[1.420s] -- Install configuration: ""
+[1.421s] -- Execute custom install script
+[1.423s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[1.438s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[1.459s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[1.480s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[1.498s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[1.536s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[1.549s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[1.563s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[1.578s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[1.594s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[1.616s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[1.630s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[1.644s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/lawn_mower/lawn_mower.egg-info
+writing ../../build/lawn_mower/lawn_mower.egg-info/PKG-INFO
+writing dependency_links to ../../build/lawn_mower/lawn_mower.egg-info/dependency_links.txt
+writing entry points to ../../build/lawn_mower/lawn_mower.egg-info/entry_points.txt
+writing requirements to ../../build/lawn_mower/lawn_mower.egg-info/requires.txt
+writing top-level names to ../../build/lawn_mower/lawn_mower.egg-info/top_level.txt
+writing manifest file '../../build/lawn_mower/lawn_mower.egg-info/SOURCES.txt'
+reading manifest file '../../build/lawn_mower/lawn_mower.egg-info/SOURCES.txt'
+writing manifest file '../../build/lawn_mower/lawn_mower.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build
+creating /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib
+creating /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower
+copying lawn_mower/radiator_pattern.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower
+copying lawn_mower/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower
+running install
+running install_lib
+creating /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower
+copying /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower/radiator_pattern.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower
+copying /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower
+byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower/radiator_pattern.py to radiator_pattern.cpython-36.pyc
+byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower/__init__.py to __init__.cpython-36.pyc
+running install_data
+creating /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/ament_index
+creating /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/ament_index/resource_index
+creating /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/ament_index/resource_index/packages
+copying resource/lawn_mower -> /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/ament_index/resource_index/packages
+copying package.xml -> /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/lawn_mower
+running install_egg_info
+Copying ../../build/lawn_mower/lawn_mower.egg-info to /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower-0.0.0-py3.6.egg-info
+running install_scripts
+Installing turtle_pattern script to /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/lawn_mower
+writing list of installed files to '/home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/install.log'

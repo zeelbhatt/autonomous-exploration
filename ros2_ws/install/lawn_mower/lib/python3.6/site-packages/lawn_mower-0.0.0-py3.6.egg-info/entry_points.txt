@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_pattern = lawn_mower.radiator_pattern:main
+

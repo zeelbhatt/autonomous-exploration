@@ -1,0 +1,58 @@
+[0.070s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher
+[1.378s] -- The C compiler identification is GNU 7.5.0
+[1.379s] -- The CXX compiler identification is GNU 7.5.0
+[1.379s] -- Check for working C compiler: /usr/bin/cc
+[1.379s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.379s] -- Detecting C compiler ABI info
+[1.380s] -- Detecting C compiler ABI info - done
+[1.380s] -- Detecting C compile features
+[1.381s] -- Detecting C compile features - done
+[1.382s] -- Check for working CXX compiler: /usr/bin/c++
+[1.383s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.383s] -- Detecting CXX compiler ABI info
+[1.383s] -- Detecting CXX compiler ABI info - done
+[1.384s] -- Detecting CXX compile features
+[1.393s] -- Detecting CXX compile features - done
+[1.400s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.422s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.422s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.767s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.806s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.845s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.915s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.920s] -- Looking for pthread.h
+[2.052s] -- Looking for pthread.h - found
+[2.052s] -- Looking for pthread_create
+[2.164s] -- Looking for pthread_create - not found
+[2.164s] -- Looking for pthread_create in pthreads
+[2.261s] -- Looking for pthread_create in pthreads - not found
+[2.261s] -- Looking for pthread_create in pthread
+[2.362s] -- Looking for pthread_create in pthread - found
+[2.363s] -- Found Threads: TRUE  
+[2.414s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.478s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.658s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.660s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.660s] -- Configured cppcheck include dirs: 
+[2.661s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.662s] -- Added test 'lint_cmake' to check CMake code style
+[2.663s] -- Added test 'uncrustify' to check C / C++ code style
+[2.664s] -- Added test 'xmllint' to check XML markup files
+[2.668s] -- Configuring done
+[2.718s] -- Generating done
+[2.718s] -- Build files have been written to: /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_publisher
+[2.736s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher
+[2.740s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[2.838s] [35m[1mScanning dependencies of target publisher_member_function[0m
+[2.839s] [35m[1mScanning dependencies of target publisher_not_composable[0m
+[2.849s] [35m[1mScanning dependencies of target publisher_lambda[0m
+[2.890s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[2.905s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.905s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[5.986s] [ 66%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[6.093s] [ 83%] [32m[1mLinking CXX executable publisher_member_function[0m
+[6.548s] [ 83%] Built target publisher_not_composable
+[6.622s] [ 83%] Built target publisher_member_function
+[6.814s] [100%] [32m[1mLinking CXX executable publisher_lambda[0m
+[7.066s] [100%] Built target publisher_lambda

@@ -1,0 +1,58 @@
+[0.068s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[1.377s] -- The C compiler identification is GNU 7.5.0
+[1.377s] -- The CXX compiler identification is GNU 7.5.0
+[1.377s] -- Check for working C compiler: /usr/bin/cc
+[1.378s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.378s] -- Detecting C compiler ABI info
+[1.378s] -- Detecting C compiler ABI info - done
+[1.378s] -- Detecting C compile features
+[1.378s] -- Detecting C compile features - done
+[1.379s] -- Check for working CXX compiler: /usr/bin/c++
+[1.380s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.380s] -- Detecting CXX compiler ABI info
+[1.381s] -- Detecting CXX compiler ABI info - done
+[1.381s] -- Detecting CXX compile features
+[1.429s] -- Detecting CXX compile features - done
+[1.432s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.471s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.472s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.826s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.852s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.882s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.944s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.947s] -- Looking for pthread.h
+[2.067s] -- Looking for pthread.h - found
+[2.068s] -- Looking for pthread_create
+[2.179s] -- Looking for pthread_create - not found
+[2.180s] -- Looking for pthread_create in pthreads
+[2.272s] -- Looking for pthread_create in pthreads - not found
+[2.273s] -- Looking for pthread_create in pthread
+[2.379s] -- Looking for pthread_create in pthread - found
+[2.381s] -- Found Threads: TRUE  
+[2.429s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.489s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.664s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.672s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.672s] -- Configured cppcheck include dirs: 
+[2.672s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.672s] -- Added test 'lint_cmake' to check CMake code style
+[2.672s] -- Added test 'uncrustify' to check C / C++ code style
+[2.672s] -- Added test 'xmllint' to check XML markup files
+[2.674s] -- Configuring done
+[2.720s] -- Generating done
+[2.721s] -- Build files have been written to: /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[2.744s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[2.747s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[2.822s] [35m[1mScanning dependencies of target subscriber_not_composable[0m
+[2.832s] [35m[1mScanning dependencies of target subscriber_lambda[0m
+[2.833s] [35m[1mScanning dependencies of target subscriber_member_function[0m
+[2.867s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[2.887s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[2.896s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[6.750s] [ 66%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[6.817s] [ 83%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[7.013s] [ 83%] Built target subscriber_not_composable
+[7.086s] [ 83%] Built target subscriber_member_function
+[7.340s] [100%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[7.579s] [100%] Built target subscriber_lambda

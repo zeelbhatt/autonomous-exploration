@@ -1,0 +1,61 @@
+[1.907s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed
+[2.169s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.169s]   % (opt, underscore_opt)
+[2.196s] running egg_info
+[2.196s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[2.196s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[2.197s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[2.197s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[2.197s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[2.198s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[2.198s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.199s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.201s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.201s] running build
+[2.202s] running build_py
+[2.202s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build
+[2.202s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib
+[2.202s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.202s] copying examples_rclpy_executors/composed.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.202s] copying examples_rclpy_executors/callback_group.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.202s] copying examples_rclpy_executors/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.203s] copying examples_rclpy_executors/talker.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.203s] copying examples_rclpy_executors/listener.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.203s] copying examples_rclpy_executors/custom_callback_group.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.203s] copying examples_rclpy_executors/custom_executor.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.203s] running install
+[2.203s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.203s]   setuptools.SetuptoolsDeprecationWarning,
+[2.204s] running install_lib
+[2.204s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors
+[2.204s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors
+[2.204s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors
+[2.205s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors
+[2.205s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors
+[2.205s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors
+[2.205s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors
+[2.205s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors
+[2.206s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors/composed.py to composed.cpython-36.pyc
+[2.206s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-36.pyc
+[2.206s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-36.pyc
+[2.206s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors/talker.py to talker.cpython-36.pyc
+[2.207s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors/listener.py to listener.cpython-36.pyc
+[2.207s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-36.pyc
+[2.209s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-36.pyc
+[2.210s] running install_data
+[2.210s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/share/ament_index
+[2.210s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[2.211s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.211s] copying resource/examples_rclpy_executors -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.211s] copying package.xml -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[2.212s] running install_egg_info
+[2.214s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages/examples_rclpy_executors-0.9.4-py3.6.egg-info
+[2.216s] running install_scripts
+[2.228s] Installing callback_group script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.228s] Installing composed script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.229s] Installing custom_callback_group script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.229s] Installing custom_executor script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.229s] Installing listener script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.229s] Installing talker script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.229s] writing list of installed files to '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/install.log'
+[2.284s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed

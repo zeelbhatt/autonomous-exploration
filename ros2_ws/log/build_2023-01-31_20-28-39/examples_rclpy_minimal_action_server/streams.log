@@ -1,0 +1,57 @@
+[2.083s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed
+[2.474s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.474s]   % (opt, underscore_opt)
+[2.536s] running egg_info
+[2.537s] creating ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info
+[2.537s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[2.537s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[2.538s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[2.538s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[2.538s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[2.538s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.539s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.539s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.539s] running build
+[2.540s] running build_py
+[2.540s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[2.540s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib
+[2.540s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.540s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.540s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.541s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.541s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.541s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.542s] copying examples_rclpy_minimal_action_server/server.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[2.542s] running install
+[2.542s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.542s]   setuptools.SetuptoolsDeprecationWarning,
+[2.543s] running install_lib
+[2.543s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server
+[2.553s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server
+[2.556s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server
+[2.556s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server
+[2.556s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server
+[2.559s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server
+[2.559s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server
+[2.565s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-36.pyc
+[2.567s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-36.pyc
+[2.568s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-36.pyc
+[2.568s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-36.pyc
+[2.568s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-36.pyc
+[2.568s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-36.pyc
+[2.568s] running install_data
+[2.568s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index
+[2.568s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[2.569s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[2.569s] copying resource/examples_rclpy_minimal_action_server -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[2.569s] copying package.xml -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[2.569s] running install_egg_info
+[2.570s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.6.egg-info
+[2.574s] running install_scripts
+[2.587s] Installing server script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.587s] Installing server_defer script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.588s] Installing server_not_composable script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.588s] Installing server_queue_goals script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.589s] Installing server_single_goal script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.589s] writing list of installed files to '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[2.676s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed

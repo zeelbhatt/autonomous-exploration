@@ -1,0 +1,45 @@
+[1.898s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/install.log --install-scripts $base/lib/examples_rclpy_minimal_service --single-version-externally-managed
+[2.133s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.133s]   % (opt, underscore_opt)
+[2.166s] running egg_info
+[2.167s] creating ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[2.167s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[2.168s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[2.168s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[2.168s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[2.168s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[2.169s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.172s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.172s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.172s] running build
+[2.173s] running build_py
+[2.173s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build
+[2.173s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build/lib
+[2.173s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.173s] copying examples_rclpy_minimal_service/service.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.174s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.174s] copying examples_rclpy_minimal_service/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.174s] running install
+[2.175s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.175s]   setuptools.SetuptoolsDeprecationWarning,
+[2.175s] running install_lib
+[2.177s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages/examples_rclpy_minimal_service
+[2.177s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages/examples_rclpy_minimal_service
+[2.177s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages/examples_rclpy_minimal_service
+[2.178s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages/examples_rclpy_minimal_service
+[2.178s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-36.pyc
+[2.180s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-36.pyc
+[2.180s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-36.pyc
+[2.181s] running install_data
+[2.181s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[2.181s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[2.181s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.182s] copying resource/examples_rclpy_minimal_service -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.182s] copying package.xml -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[2.182s] running install_egg_info
+[2.185s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages/examples_rclpy_minimal_service-0.9.4-py3.6.egg-info
+[2.186s] running install_scripts
+[2.200s] Installing service script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.200s] Installing service_member_function script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.201s] writing list of installed files to '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[2.264s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_service/install.log --install-scripts $base/lib/examples_rclpy_minimal_service --single-version-externally-managed

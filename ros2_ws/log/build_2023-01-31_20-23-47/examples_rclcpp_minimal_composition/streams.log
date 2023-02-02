@@ -1,0 +1,30 @@
+[0.069s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[1.050s] [ 33%] Built target composition_nodes
+[1.050s] [ 55%] Built target composition_composed
+[1.050s] [ 77%] Built target composition_subscriber
+[1.050s] [100%] Built target composition_publisher
+[1.058s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[1.144s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_composition --target install -- -j12 -l12
+[1.283s] [ 33%] Built target composition_nodes
+[1.388s] [ 55%] Built target composition_publisher
+[1.403s] [ 77%] Built target composition_composed
+[1.410s] [100%] Built target composition_subscriber
+[1.440s] [36mInstall the project...[0m
+[1.457s] -- Install configuration: ""
+[1.458s] -- Execute custom install script
+[1.458s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[1.477s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[1.500s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[1.509s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[1.533s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[1.548s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[1.568s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[1.598s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[1.616s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[1.635s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[1.651s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[1.664s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[1.678s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[1.692s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[1.706s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[1.720s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml

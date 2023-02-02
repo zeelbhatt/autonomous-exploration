@@ -1,0 +1,7 @@
+[0.261s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/executors': AMENT_PREFIX_PATH=/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors:${AMENT_PREFIX_PATH} PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v
+[1.348s] 
+[1.348s] ----------------------------------------------------------------------
+[1.349s] Ran 0 tests in 0.000s
+[1.349s] 
+[1.349s] OK
+[1.576s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/executors' returned '0': AMENT_PREFIX_PATH=/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors:${AMENT_PREFIX_PATH} PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_executors/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v

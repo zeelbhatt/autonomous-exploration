@@ -1,0 +1,26 @@
+[0.070s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[1.035s] [ 33%] Built target subscriber_lambda
+[1.035s] [ 66%] Built target subscriber_member_function
+[1.035s] [100%] Built target subscriber_not_composable
+[1.053s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[1.136s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclcpp_minimal_subscriber --target install -- -j12 -l12
+[1.288s] [ 33%] Built target subscriber_not_composable
+[1.303s] [ 66%] Built target subscriber_lambda
+[1.320s] [100%] Built target subscriber_member_function
+[1.384s] [36mInstall the project...[0m
+[1.399s] -- Install configuration: ""
+[1.400s] -- Execute custom install script
+[1.402s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[1.416s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[1.431s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[1.446s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[1.461s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[1.484s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[1.499s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[1.516s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[1.532s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[1.547s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[1.561s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[1.575s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[1.593s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[1.606s] -- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml

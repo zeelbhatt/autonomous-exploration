@@ -1,0 +1,49 @@
+[2.099s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --install-scripts $base/lib/examples_rclpy_minimal_subscriber --single-version-externally-managed
+[2.335s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.335s]   % (opt, underscore_opt)
+[2.358s] running egg_info
+[2.358s] creating ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+[2.358s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.359s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.359s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.359s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.359s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.359s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.360s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.361s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.361s] running build
+[2.361s] running build_py
+[2.361s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build
+[2.361s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[2.362s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.362s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.362s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.362s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.362s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.362s] running install
+[2.362s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.362s]   setuptools.SetuptoolsDeprecationWarning,
+[2.362s] running install_lib
+[2.362s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber
+[2.363s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber
+[2.363s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber
+[2.363s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber
+[2.363s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber
+[2.363s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-36.pyc
+[2.363s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-36.pyc
+[2.364s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-36.pyc
+[2.364s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-36.pyc
+[2.364s] running install_data
+[2.364s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[2.364s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[2.364s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.365s] copying resource/examples_rclpy_minimal_subscriber -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.365s] copying package.xml -> /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[2.365s] running install_egg_info
+[2.366s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.6.egg-info
+[2.367s] running install_scripts
+[2.382s] Installing subscriber_lambda script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.382s] Installing subscriber_member_function script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.383s] Installing subscriber_old_school script to /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.383s] writing list of installed files to '/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[2.404s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --install-scripts $base/lib/examples_rclpy_minimal_subscriber --single-version-externally-managed

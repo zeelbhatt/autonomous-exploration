@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[01m[K/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp:157:11:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackGroup[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+   rclcpp::[01;31m[KCallbackGroup[m[K::SharedPtr callback_group_subscriber1_;
+           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp:158:11:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackGroup[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+   rclcpp::[01;31m[KCallbackGroup[m[K::SharedPtr callback_group_subscriber2_;
+           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp:[m[K In constructor ‘[01m[KDualThreadedNode::DualThreadedNode()[m[K’:
+[01m[K/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_group_subscriber1_[m[K’ was not declared in this scope
+     [01;31m[Kcallback_group_subscriber1_[m[K = this->create_callback_group(
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp:79:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::CallbackGroupType[m[K’ has not been declared
+       rclcpp::[01;31m[KCallbackGroupType[m[K::MutuallyExclusive);
+               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_group_subscriber2_[m[K’ was not declared in this scope
+     [01;31m[Kcallback_group_subscriber2_[m[K = this->create_callback_group(
+     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zeelb/autonomous-exploration/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp:81:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::CallbackGroupType[m[K’ has not been declared
+       rclcpp::[01;31m[KCallbackGroupType[m[K::MutuallyExclusive);
+               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+CMakeFiles/multithreaded_executor.dir/build.make:62: recipe for target 'CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o' failed
+make[2]: *** [CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/multithreaded_executor.dir/all] Error 2
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/multithreaded_executor.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

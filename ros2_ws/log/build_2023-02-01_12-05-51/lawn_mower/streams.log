@@ -1,0 +1,41 @@
+[0.546s] Invoking command in '/home/zeelb/autonomous-exploration/ros2_ws/src/lawn_mower': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lawn_mower build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/install.log --install-scripts $base/lib/lawn_mower --single-version-externally-managed
+[0.744s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.744s]   % (opt, underscore_opt)
+[0.768s] running egg_info
+[0.769s] creating ../../build/lawn_mower/lawn_mower.egg-info
+[0.769s] writing ../../build/lawn_mower/lawn_mower.egg-info/PKG-INFO
+[0.769s] writing dependency_links to ../../build/lawn_mower/lawn_mower.egg-info/dependency_links.txt
+[0.769s] writing entry points to ../../build/lawn_mower/lawn_mower.egg-info/entry_points.txt
+[0.769s] writing requirements to ../../build/lawn_mower/lawn_mower.egg-info/requires.txt
+[0.769s] writing top-level names to ../../build/lawn_mower/lawn_mower.egg-info/top_level.txt
+[0.769s] writing manifest file '../../build/lawn_mower/lawn_mower.egg-info/SOURCES.txt'
+[0.770s] reading manifest file '../../build/lawn_mower/lawn_mower.egg-info/SOURCES.txt'
+[0.771s] writing manifest file '../../build/lawn_mower/lawn_mower.egg-info/SOURCES.txt'
+[0.771s] running build
+[0.771s] running build_py
+[0.771s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build
+[0.772s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib
+[0.772s] creating /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower
+[0.772s] copying lawn_mower/radiator_pattern.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower
+[0.772s] copying lawn_mower/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower
+[0.772s] running install
+[0.772s] /home/zeelb/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.772s]   setuptools.SetuptoolsDeprecationWarning,
+[0.772s] running install_lib
+[0.772s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower
+[0.773s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower/radiator_pattern.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower
+[0.773s] copying /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build/lib/lawn_mower/__init__.py -> /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower
+[0.773s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower/radiator_pattern.py to radiator_pattern.cpython-36.pyc
+[0.774s] byte-compiling /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower/__init__.py to __init__.cpython-36.pyc
+[0.774s] running install_data
+[0.774s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/ament_index
+[0.774s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/ament_index/resource_index
+[0.774s] creating /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/ament_index/resource_index/packages
+[0.774s] copying resource/lawn_mower -> /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/ament_index/resource_index/packages
+[0.774s] copying package.xml -> /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/share/lawn_mower
+[0.774s] running install_egg_info
+[0.776s] Copying ../../build/lawn_mower/lawn_mower.egg-info to /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages/lawn_mower-0.0.0-py3.6.egg-info
+[0.776s] running install_scripts
+[0.790s] Installing turtle_pattern script to /home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/lawn_mower
+[0.790s] writing list of installed files to '/home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/install.log'
+[0.806s] Invoked command in '/home/zeelb/autonomous-exploration/ros2_ws/src/lawn_mower' returned '0': PYTHONPATH=/home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/prefix_override:/home/zeelb/autonomous-exploration/ros2_ws/install/lawn_mower/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lawn_mower build --build-base /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/build install --record /home/zeelb/autonomous-exploration/ros2_ws/build/lawn_mower/install.log --install-scripts $base/lib/lawn_mower --single-version-externally-managed

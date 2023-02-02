@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+CMakeFiles/multithreaded_executor.dir/build.make:62: recipe for target 'CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o' failed
+CMakeFiles/Makefile2:99: recipe for target 'CMakeFiles/multithreaded_executor.dir/all' failed
+Makefile:140: recipe for target 'all' failed

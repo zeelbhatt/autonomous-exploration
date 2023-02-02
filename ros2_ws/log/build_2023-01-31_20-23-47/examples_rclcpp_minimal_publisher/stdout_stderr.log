@@ -1,0 +1,23 @@
+[ 33%] Built target publisher_lambda
+[ 66%] Built target publisher_not_composable
+[100%] Built target publisher_member_function
+[ 33%] Built target publisher_not_composable
+[ 66%] Built target publisher_member_function
+[100%] Built target publisher_lambda
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+-- Symlinking: /home/zeelb/autonomous-exploration/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
