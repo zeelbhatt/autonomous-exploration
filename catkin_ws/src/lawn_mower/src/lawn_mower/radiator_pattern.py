@@ -69,7 +69,6 @@ class ReachGoal2:
     def move_to(self):
         self.chase_distance = math.sqrt((self.xp - self.goal_x) ** 2 + (self.yp - self.goal_y) ** 2)
         while self.chase_distance > 0.09:
-            print('distance to goal ', self.chase_distance)
             self.command.linear.x = self._set_linear_speed()
             # self.command.linear.x = 5
             self.command.angular.z = 0.0
@@ -91,6 +90,7 @@ class ReachGoal2:
         self.distance_int = self.distance_int + self.chase_distance
         command_linear_speed = (self.parameters[0] * self.chase_distance) + ((-self.parameters[2]) * self.line_vel) + \
                                (self.parameters[1] * self.distance_int)
+
         linear_acc = (command_linear_speed - self.record_linear_speed[-1]) / 0.01
 
         if linear_acc > self.linear_acc_limit[0]:
@@ -100,6 +100,11 @@ class ReachGoal2:
         if linear_acc < self.linear_acc_limit[1]:
             linear_acc = self.linear_acc_limit[1]
             command_linear_speed = (linear_acc * 0.01) + self.record_linear_speed[-1]
+
+        if command_linear_speed >= 1.0:
+            command_linear_speed = 1.0
+
+        print('Speed ', command_linear_speed)
 
         return command_linear_speed
 
