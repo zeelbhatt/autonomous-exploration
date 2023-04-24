@@ -149,10 +149,10 @@ class Mission:
                 "Desired position: x={}, y={}, z={}, qx={}, qy = {}, qz = {}, qw = {}".format(des[0], des[1],
                                                                                               des[2], q[0], q[1],
                                                                                               q[2], q[3]))
-            d = self.goal_pose(self.curr, des)
+            d = get_dist(self.curr, des)
             while d > self.distThr and not rospy.is_shutdown():
                 self.local_pose_pub.publish(self.goal_pose)
-                d = self.goal_pose(self.curr, des)
+                d = get_dist(self.curr, des)
                 self.rate.sleep()
 
     def pose_cb(self, points):
@@ -163,7 +163,8 @@ class Mission:
         self.drone_status = data
 
     def launch(self):
-        while not rospy.is_shutdown() and not self.drone_status.connected:
+        while not rospy.is_shutdown():
+            print("Check 1")
             self.rate.sleep()
             self.setmode_offb()
             self.goto_sample_probe()
