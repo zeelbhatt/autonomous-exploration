@@ -162,27 +162,22 @@ class Mission:
     def status_cb(self, data):
         self.drone_status = data
 
-    def launch_mission(self):
+    def launch(self):
         while not rospy.is_shutdown() and not self.drone_status.connected:
             self.rate.sleep()
             self.setmode_offb()
-
-    def launch(self):
-        self.goto_sample_probe()
-        self.pick_probe()
-        self.goto_rock()
-        self.circle_rock(self.rock_vec[0], self.rock_vec[1], self.rock_vec[2], 3, 16, 1)
+            self.goto_sample_probe()
+            self.pick_probe()
+            self.goto_rock()
+            self.circle_rock(self.rock_vec[0], self.rock_vec[1], self.rock_vec[2], 3, 16, 1)
 
 
 def main():
-    rospy.init_node('LQR_Control')
-    rospy.loginfo("[LQR_Control] initialised")
+    rospy.init_node('ProbeMission')
+    rospy.loginfo("[ProbeMission] initialised")
     mission_instance = Mission()
-
-    try:
-        rospy.spin()
-    except KeyboardInterrupt:
-        rospy.loginfo('[LQR_Control] closed')
+    mission_instance.launch()
+    rospy.spin()
 
 
 if __name__ == '__main__':
