@@ -3,7 +3,7 @@
 import rospy
 import numpy as np
 import math
-from mavros_msgs.msg import State
+from mavros_msgs.msg import State, PositionTarget
 from tf.transformations import quaternion_from_euler
 from mavros_msgs.srv import CommandBool, CommandBoolRequest, SetMode, SetModeRequest, CommandTOL
 from geometry_msgs.msg import PoseStamped
@@ -23,7 +23,7 @@ class Mission:
         self.rate = rospy.Rate(20)
         self.t0 = rospy.get_time()
 
-        self.rock_vec = np.array([60.2, -12.5, 21])
+        self.rock_vec = np.array([60.2, -12.5, 18])
         self.probe_vec = np.array([40.5, 3.8, 15])
         self.rover_vec = np.array([12.6, -65.0, -3.5])
 
@@ -32,6 +32,12 @@ class Mission:
         self.local_pose_pub = rospy.Publisher("/mavros/setpoint_position/local", PoseStamped, queue_size=10)
         self.local_pose_sub = rospy.Subscriber("/mavros/local_position/pose", PoseStamped, callback=self.pose_cb)
         state_sub = rospy.Subscriber("/mavros/state", State, callback=self.status_cb)
+        
+        self.pose = PoseStamped()
+
+	self.pose.pose.position.x = 0
+	self.pose.pose.position.y = 0
+	self.pose.pose.position.z = 2
 
     def setmode_offb(self):
         rospy.wait_for_service("/mavros/cmd/arming")
@@ -45,19 +51,23 @@ class Mission:
         offb_set_mode = SetModeRequest()
         offb_set_mode.custom_mode = 'OFFBOARD'
 
-        for i in range(100):
+        for i in range(10):
             if rospy.is_shutdown():
                 break
             self.local_pose_pub.publish(self.goal_pose)
+            print("Check 2")
             self.rate.sleep()
 
-        # if set_mode_client.call(offb_set_mode).mode_sent == True:
+        #if set_mode_client.call(offb_set_mode).mode_sent == True:
         #     self.offboardCheck = True
         #     rospy.loginfo("OFFBOARD enabled")
 
         last_req = rospy.Time.now()
         while not rospy.is_shutdown():  # and not self.offboardCheck:
-            if self.drone_status.mode != "OFFBOARD" and (rospy.Time.now() - last_req) > rospy.Duration(5.0):
+            #print("Inside while loop :")
+            #print(rospy.Time.now(), "time_now and :    ", last_req )
+            if self.drone_status.mode != "OFFBOARD" and (rospy.Time.now() - last_req) > rospy.Duration(2.0):
+                print("Check 3")
                 if set_mode_client.call(offb_set_mode).mode_sent == True:
                     # self.offboardCheck = True
                     rospy.loginfo("OFFBOARD enabled")
@@ -65,10 +75,18 @@ class Mission:
 
                 last_req = rospy.Time.now()
             else:  # if A*B else !(A*B) = !A + !B
-                if not self.drone_status.armed and (rospy.Time.now() - last_req) > rospy.Duration(5.0):
+                if not self.drone_status.armed and (rospy.Time.now() - last_req) > rospy.Duration(2.0):
+                    print("Check 4")
                     if arming_client.call(arm_cmd).success == True:
                         rospy.loginfo("Vehicle armed")
-            last_req = rospy.Time.now()
+                    last_req = rospy.Time.now()
+	    if(self.drone_status.mode == "OFFBOARD" and self.drone_status.armed):
+		print("third IF--------")
+		if((rospy.Time.now() - last_req) > rospy.Duration(5.0)):
+	#		last_req = rospy.Time.now()
+			break;
+	    self.local_pose_pub.publish(self.pose)
+	    self.rate.sleep()                    
 
     def navigate(self, x, y, z):
         self.goal_pose.pose.position.x = x
@@ -103,6 +121,13 @@ class Mission:
                 print(q)
                 break
 
+    def goto_rover(self):
+		print("=== GO to rock and Face rock ========")
+		locations = np.matrix([[12.62, -64.8, 2],[12.62, -64.85, 0.5]])
+		for waypt in locations:
+			x, y, z = waypt.tolist()[0]
+			self.navigate(x, y, z)
+			
     def goto_sample_probe(self):
         print("=== Going to probe location ========")
         locations = np.matrix([[40.8, 3.5, 20], ])
@@ -110,12 +135,7 @@ class Mission:
             x, y, z = waypt.tolist()[0]
             self.navigate(x, y, z)
 
-    def pick_probe(self):
-        print("=== Pick probe using visual servoing(currently position control) ========")
-        locations = np.matrix([[40.8, 3.5, 12.2], [40.8, 3.5, 20]])
-        for waypt in locations:
-            x, y, z = waypt.tolist()[0]
-            self.navigate(x, y, z)
+
 
     def goto_rock(self):
         print("=== GO to rock and Face rock ========")
@@ -124,6 +144,32 @@ class Mission:
             x, y, z = waypt.tolist()[0]
             self.navigate(x, y, z)
 
+
+
+
+
+    
+    
+    def land_on_rover(self):
+		local_pos_pub = rospy.Publisher('/mavros/setpoint_raw/local', PositionTarget, queue_size=10)
+		arm_service = rospy.ServiceProxy('/mavros/cmd/arming', CommandBool)
+		landing_position = PositionTarget()
+		landing_position.position.x = 12.621
+		landing_position.position.y = -64.85
+		landing_position.position.z = -3.5
+		landing_position.coordinate_frame = PositionTarget.FRAME_LOCAL_NED
+		landing_position.type_mask = PositionTarget.IGNORE_VX + PositionTarget.IGNORE_VY + PositionTarget.IGNORE_VZ \
+							+ PositionTarget.IGNORE_AFX + PositionTarget.IGNORE_AFY + PositionTarget.IGNORE_AFZ \
+							+ PositionTarget.IGNORE_YAW + PositionTarget.IGNORE_YAW_RATE
+		# Publish the landing position command
+		rate = rospy.Rate(10)
+		while not rospy.is_shutdown():
+			local_pos_pub.publish(landing_position)
+			rate.sleep()
+			if(self.curr.z < -3.2):
+				print("Landed =========")
+				arm_service(False)
+				
     def circle_rock(self, x, y, z, r, n, zh):
         print("=== Circle rock ========")
         # r = 8;
@@ -166,13 +212,18 @@ class Mission:
 
     def launch(self):
         while not rospy.is_shutdown():
-            print("Check 1")
-            self.rate.sleep()
-            self.setmode_offb()
-            self.goto_sample_probe()
-            self.pick_probe()
-            self.goto_rock()
-            self.circle_rock(self.rock_vec[0], self.rock_vec[1], self.rock_vec[2], 3, 16, 1)
+			print("Check 1")
+			self.rate.sleep()
+			self.setmode_offb()
+			self.goto_sample_probe()
+			self.goto_rock()
+			self.circle_rock(self.rock_vec[0], self.rock_vec[1], self.rock_vec[2], 4, 16, 1)
+			print("============== cirled rock =========")
+			self.goto_rover()
+			print("===============went to rover=============")
+			self.land_on_rover()
+			print("==================landed====================")
+			
 
 
 def main():

@@ -40,3 +40,9 @@ But before that, run the cps_challange_2020 simulation and have the drone ready 
 Run the file.
 
 `rosrun mission_py final_mission_file.py`
+
+Video
+https://youtu.be/OF8OXZJcdMU
+
+
+
