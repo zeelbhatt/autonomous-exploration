@@ -7,13 +7,14 @@ The phase-1 world consist of bishop mars terrain along with a probe, a precariou
 The task includes below points in the given sequence
 1. Set offbaord and go to the probe for data mulling (distanceThreshold = 1 meter)
 2. After data mulling is completed, move closer to rock and map the entire rock using OrbSlam2
-3. Once mapping is completed, move towards the pre-defined location where rover is parked and land on it safely.
+3. Once mapping is completed, move towards the randomly moving rover and land on it safely.
+![Studio_Project (2)](https://user-images.githubusercontent.com/97504177/236709060-351487da-2213-4cca-b190-518aad6e828a.gif)
 4. All the above sequence of action must happened autonomoulsy without human intervention in between.
 
 # Demonstration
 
 https://user-images.githubusercontent.com/97504177/236119033-6c1accd3-45f5-4fe9-8ea5-d87159a41130.mp4
-![Studio_Project (2)](https://user-images.githubusercontent.com/97504177/236709060-351487da-2213-4cca-b190-518aad6e828a.gif)
+
 
 # Installation
 
