@@ -2,6 +2,8 @@
 THis repository contains mission execution python scripts for cps_challange_2020 gazebo simulation.
 run final_mission_file.py is the execution file.
 
+![Studio_Project (2)](https://user-images.githubusercontent.com/97504177/236709060-351487da-2213-4cca-b190-518aad6e828a.gif)
+
 ## Instructions
 Go to src folder of your workspace
 
