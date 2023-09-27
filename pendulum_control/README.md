@@ -1,22 +1,51 @@
-https://github.com/linZHank/invpend_experiment
+# LQR_inverted_pendulum_on_cart_controller
+The goal of the application is to control the inverted pendulum on moving cart using Linear Quadratic Regulator (LQR). This application is a part of Assignment for SES 598 : Autonomous Exploration Systems at Arizona State University. 
 
-Launch RVIZ
+Code uses ROS Noetic on Ubuntu 20.04
+
+
+# Demonstration
+
+![Studio_Project](https://user-images.githubusercontent.com/97504177/223634066-f439f299-3e42-4caa-8ac9-f319698d40aa.gif)
+
+
+
+
+# Installation
+
+This package relies on a Gazebo simulation of an inverted pendulum. Please visit the follow repository and follow their instructions for setting up the simulation components: https://github.com/linZHank/invpend_experiment.
+
 ```
-roslaunch invpend_description invpend_rviz.launch
+pip install control
 ```
 
-Launch the gazebo
 ```
-roslaunch invpend_control load_invpend.launch
+mkdir -p ~/ros_ws
 ```
-PID Values Kp = 100,Kd = 1, Ki = 1
-![Studio_Project](https://github.com/zeelbhatt/autonomous-exploration/blob/main/pendulum_control/pend.gif)
-![Screenshot](https://github.com/zeelbhatt/autonomous-exploration/blob/main/pendulum_control/Screenshot%20from%202023-03-15%2016-14-47.png)
-![Screenshot3](https://github.com/zeelbhatt/autonomous-exploration/blob/main/pendulum_control/Screenshot%20from%202023-03-15%2017-13-09.png)
+
+```
+git clone https://github.com/Mannat-Rana/LQR-Control-For-Inverted_Pendulum.git
+```
+
+```
+catkin_make
+```
 
 
 
-------------------------------------------
-LQR Control plot
-![Scrrenshot2](https://github.com/zeelbhatt/autonomous-exploration/blob/main/pendulum_control/Screenshot%20from%202023-03-15%2017-11-28.png)
+# To Run
 
+```
+source ~/ros_ws/devel/setup.bash
+```
+
+```
+roslaunch lqr_invpend_control lqr_invpend_control.launch
+```
+```
+rosrun invpend_control lqr_control.py
+```
+# Tweak Parameters
+
+Once simulation opens and lqr_control.py is running, right click on pole link and apply torque or force to test the model.
+Tweak the Q and R values in the script, to make the model performance more robust.
