@@ -1,7 +1,7 @@
 # Drone_mission
 THis repository contains mission execution python scripts for cps_challange_2020 gazebo simulation.
 run final_mission_file.py is the execution file.
-
+https://user-images.githubusercontent.com/97504177/236119033-6c1accd3-45f5-4fe9-8ea5-d87159a41130.mp4
 ![Studio_Project (2)](https://user-images.githubusercontent.com/97504177/236709060-351487da-2213-4cca-b190-518aad6e828a.gif)
 
 ## Instructions
