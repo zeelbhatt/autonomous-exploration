@@ -1,50 +1,57 @@
-# Drone_mission
-THis repository contains mission execution python scripts for cps_challange_2020 gazebo simulation.
-run final_mission_file.py is the execution file.
+# Rocky-Times-Challenge-SES598-ASU
+This code is the part of midterm assignment for SES 598 Autonomous Exploration System Course at Arizona State University (ASU). The project involves moving the quadcopter close to a probe for data mulling, later move towards precariously balanced rock, revolve around it and create PointCloud map using ORBSLAM2 and land safely on Rover.
+
+# Challenge details and objectives
+<img width="837" alt="Screenshot 2023-05-03 at 10 33 41 PM" src="https://user-images.githubusercontent.com/97504177/236119781-4f0b61ad-53ec-4eb5-a5ae-0b564a6eda3f.png">
+The phase-1 world consist of bishop mars terrain along with a probe, a precariously balanced rock, a rover and a quadcopter.
+The task includes below points in the given sequence
+1. Set offbaord and go to the probe for data mulling (distanceThreshold = 1 meter)
+2. After data mulling is completed, move closer to rock and map the entire rock using OrbSlam2
+3. Once mapping is completed, move towards the pre-defined location where rover is parked and land on it safely.
+4. All the above sequence of action must happened autonomoulsy without human intervention in between.
+
+# Demonstration
+
 https://user-images.githubusercontent.com/97504177/236119033-6c1accd3-45f5-4fe9-8ea5-d87159a41130.mp4
-![Studio_Project (2)](https://user-images.githubusercontent.com/97504177/236709060-351487da-2213-4cca-b190-518aad6e828a.gif)
 
-## Instructions
-Go to src folder of your workspace
+# Installation
 
-`cd ~/catkin_ws/src`
+Register on https://cps-vo.org/group/CPSchallenge to get access to pre-configured docker container with 3D graphics, ROS, Gazebo, and PX4 flight stack.
+Or you can clone and build using https://github.com/Open-UAV/cps_challenge_2020.git
 
-Create rospy package
+Install ORBSLAM2 by following the github repository
+```
+https://github.com/raulmur/ORB_SLAM2.git
+```
 
-`catkin_create_pkg mission_py rospy`
+Follow below instruction to clone the midterm.py in ./scripts/ folder
+```
+cd cps_challenge/scripts
+```
+```
+git clone https://github.com/skp-1997/Rocky-Times-challenge-SES598-ASU.git
+```
 
-Build new package
+# Running the code
 
-`cd ..`
+Run the phase-1 world of gazebo using the command
+```
+roslaunch cps_challenge_2020 phase-1.launch
+```
 
-`catkin_build`
+Run the ORBSLAM2 using the command
+```
+rosrun ORB_SLAM2 Mono PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE /camera/image_raw:='your camera topic'
+```
 
-`source devel/setup.bash`
+Run the program using the command
+```
+rosrun cps_challenge_2020 midterm.py or python midterm.py
+```
 
-Go to package folder
+# Pre-requisites
 
-`roscd mission_py`
-
-For python script files, create a folder named /scripts
-
-`mkdir scripts`
-
-`cd scripts`
-
-copy the mission script file `drone_mission.py` to this folder.
-chmod this file
-
-`chmod +x final_mission_file.py`
-
-Now you can execute this file through rosrun
-But before that, run the cps_challange_2020 simulation and have the drone ready to take off!!
-
-Run the file.
-
-`rosrun mission_py final_mission_file.py`
-
-Video
-https://youtu.be/OF8OXZJcdMU
-
-
-
+1. Python 2.7
+2. Ubuntu 18.04
+3. ROS1 MELODIC
+4. Gazebo 9.6
