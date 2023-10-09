@@ -13,7 +13,7 @@ Code uses ROS Noetic on Ubuntu 20.04
 
 # Installation
 
-This package relies on a Gazebo simulation of an inverted pendulum. Please visit the follow repository and follow their instructions for setting up the simulation components: https://github.com/linZHank/invpend_experiment.
+This package relies on a Gazebo simulation of an inverted pendulum.
 
 ```
 pip install control
